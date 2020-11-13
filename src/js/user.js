@@ -35,4 +35,8 @@ export class User {
 	jupiterAge() {
 		return this.earthAge / 11.86;
 	}
+
+	jupiterYearsLeft() {
+		return (this.lifeExpectancy - this.earthAge) / 11.86;
+	}
 }
