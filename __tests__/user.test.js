@@ -14,10 +14,10 @@ describe('User', () => {
 	test('should correctly output the Venus age of the User object', () => {
 		let user = new User(45);
 		expect(user.venusAge()).toEqual(45 / 0.62);
-  });
-  
-  test('should correctly output the Mars age of the User object', () => {
-    let user = new User(45);
-    expect(user.marsAge()).toEqual(45 * 1.88)
-  })
+	});
+
+	test('should correctly output the Mars age of the User object', () => {
+		let user = new User(45);
+		expect(user.marsAge()).toEqual(45 / 1.88);
+	});
 });
