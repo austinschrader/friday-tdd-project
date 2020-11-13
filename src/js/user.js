@@ -20,6 +20,10 @@ export class User {
 		return this.earthAge / 0.62;
 	}
 
+	venusYearsLeft() {
+		return (this.lifeExpectancy - this.earthAge) / 0.62;
+	}
+
 	marsAge() {
 		return this.earthAge / 1.88;
 	}

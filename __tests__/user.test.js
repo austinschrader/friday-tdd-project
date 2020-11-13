@@ -35,4 +35,9 @@ describe('User', () => {
 		let user = new User(45, 78.54);
 		expect(user.mercuryYearsLeft()).toEqual((78.54 - 45) / 0.24);
 	});
+
+	test('should correctly output the life expectancy left in Venus years of the User object', () => {
+		let user = new User(45, 78.54);
+		expect(user.venusYearsLeft()).toEqual((78.54 - 45) / 0.62);
+	});
 });
