@@ -7,7 +7,12 @@ describe('User', () => {
 	});
 
 	test('should correctly output the Mercury age of the User object', () => {
-		let user1 = new User(45);
-		expect(user1.mercuryAge()).toEqual(45 * 0.24);
+		let user = new User(45);
+		expect(user.mercuryAge()).toEqual(45 * 0.24);
+	});
+
+	test('should correctly output the Venus age of the User object', () => {
+		let user = new User(45);
+		expect(user.venusAge()).toEqual(45 * 0.24);
 	});
 });
