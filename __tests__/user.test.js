@@ -40,4 +40,9 @@ describe('User', () => {
 		let user = new User(45, 78.54);
 		expect(user.venusYearsLeft()).toEqual((78.54 - 45) / 0.62);
 	});
+
+	test('should correcly output the life expectancy left in Mars years of the User object', () => {
+		let user = new User(45, 78.54);
+		expect(user.marsYearsLeft()).toEqual((78.54 - 45) / 1.88);
+	});
 });
