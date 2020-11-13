@@ -1,4 +1,4 @@
-import User from './../src/js/user.js';
+import { User } from './../src/js/user.js';
 
 describe('User', () => {
 	test('should correct output the earth age of the User object', () => {
