@@ -1,11 +1,20 @@
 export class User {
-	constructor(earthAge) {
+	constructor(earthAge, lifeExpectancy) {
 		this.earthAge = earthAge;
+		this.lifeExpectancy = lifeExpectancy;
+	}
+
+	earthYearsLeft() {
+		return this.lifeExpectancy - this.earthAge;
 	}
 
 	mercuryAge() {
 		return this.earthAge / 0.24;
 	}
+
+	// mercuryYearsLeft() {
+	// 	return (this.earthAge - this.lifeExpectancy) / 0.24;
+	// }
 
 	venusAge() {
 		return this.earthAge / 0.62;

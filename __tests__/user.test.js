@@ -28,6 +28,6 @@ describe('User', () => {
 
 	test('should correctly output the life expectancy left in Earth years of the User object', () => {
 		let user = new User(45, 78.54);
-		expect(user.earthYearsLeft()).toEqual(45 - 78.54);
+		expect(user.earthYearsLeft()).toEqual(78.54 - 45);
 	});
 });
