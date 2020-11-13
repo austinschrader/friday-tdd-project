@@ -30,4 +30,9 @@ describe('User', () => {
 		let user = new User(45, 78.54);
 		expect(user.earthYearsLeft()).toEqual(78.54 - 45);
 	});
+
+	test('should correctly output the life expectancy left in Mercury years of the User object', () => {
+		let user = new User(45, 78.54);
+		expect(user.mercuryYearsLeft()).toEqual(78.54 - 45);
+	});
 });
