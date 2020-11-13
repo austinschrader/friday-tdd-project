@@ -23,15 +23,15 @@ $(document).ready(function () {
 		)}</li>
     <li>Venus age: ${user.venusAge()}</li>
     <li>Venus Life Expectancy: ${user.venusYearsLeft(
-			lifeExpectancy - earthAge
+			(lifeExpectancy - earthAge) / 0.62
 		)}</li>
     <li>Mars age: ${user.marsAge()}</li>
     <li>Mars Life Expectancy: ${user.marsYearsLeft(
-			lifeExpectancy - earthAge
+			(lifeExpectancy - earthAge) / 1.88
 		)}</li>
     <li>Jupiter age: ${user.jupiterAge()}</li>
     <li>Jupiter Life Expectancy: ${user.jupiterYearsLeft(
-			lifeExpectancy - earthAge
+			(lifeExpectancy - earthAge) / 11.86
 		)} </li>
     </ul>
     
