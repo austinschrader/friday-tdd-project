@@ -1,8 +1,8 @@
 ## Friday TDD Project
 
-\Fun application that takes your age, and your life expectancy and tells you your expected age left converted to various solar bodies including Mars, Venus, Mercury & Jupiter.
+Fun application that takes your age, and your life expectancy and tells you your expected age left converted to various solar bodies including Mars, Venus, Mercury & Jupiter.
 
-By Austin Schrader\
+By Austin Schrader
 
 ## Description
 
