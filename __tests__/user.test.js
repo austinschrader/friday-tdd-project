@@ -41,8 +41,13 @@ describe('User', () => {
 		expect(user.venusYearsLeft()).toEqual((78.54 - 45) / 0.62);
 	});
 
-	test('should correcly output the life expectancy left in Mars years of the User object', () => {
+	test('should correctly output the life expectancy left in Mars years of the User object', () => {
 		let user = new User(45, 78.54);
 		expect(user.marsYearsLeft()).toEqual((78.54 - 45) / 1.88);
+	});
+
+	test('should correctly output the life expectancy left in Jupiter years of the User object', () => {
+		let user = new User(45, 78.54);
+		expect(user.jupiterYearsLeft()).toEqual((78.54 - 45) / 11.86);
 	});
 });
