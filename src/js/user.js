@@ -12,9 +12,9 @@ export class User {
 		return this.earthAge / 0.24;
 	}
 
-	// mercuryYearsLeft() {
-	// 	return (this.earthAge - this.lifeExpectancy) / 0.24;
-	// }
+	mercuryYearsLeft() {
+		return (this.lifeExpectancy - this.earthAge) / 0.24;
+	}
 
 	venusAge() {
 		return this.earthAge / 0.62;
