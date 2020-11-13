@@ -20,4 +20,9 @@ describe('User', () => {
 		let user = new User(45);
 		expect(user.marsAge()).toEqual(45 / 1.88);
 	});
+
+	test('should correctly output the Jupiter age of the User object', () => {
+		let user = new User(45);
+		expect(user.jupiterAge()).toEqual(45 / 11.86);
+	});
 });
