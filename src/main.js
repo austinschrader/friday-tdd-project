@@ -33,10 +33,6 @@ $(document).ready(function () {
     <li>Jupiter Life Expectancy: ${user.jupiterYearsLeft(
 			(lifeExpectancy - earthAge) / 11.86
 		)} </li>
-    </ul>
-    
-    
-    
-    `);
+    </ul>`);
 	});
 });
