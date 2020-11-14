@@ -6,6 +6,13 @@ describe('User', () => {
 		expect(user.earthAge).toEqual(45);
 	});
 
+	test('should correctly output the Earth age of the User object', () => {
+		let user = new User(80, 75);
+		expect(user.earthYearsLeft()).toEqual(
+			`youve lived ${Math.abs(75 - 80)} years past your life expectancy`
+		);
+	});
+
 	test('should correctly output the Mercury age of the User object', () => {
 		let user = new User(45);
 		expect(user.mercuryAge()).toEqual(45 / 0.24);

@@ -5,6 +5,11 @@ export class User {
 	}
 
 	earthYearsLeft() {
+		if (this.lifeExpectancy < this.earthAge) {
+			return `youve lived ${Math.abs(
+				this.lifeExpectancy - this.earthAge
+			)} years past your life expectancy`;
+		}
 		return this.lifeExpectancy - this.earthAge;
 	}
 
@@ -13,6 +18,11 @@ export class User {
 	}
 
 	mercuryYearsLeft() {
+		if (this.lifeExpectancy < this.earthAge) {
+			return `youve lived ${
+				Math.abs(this.lifeExpectancy - this.earthAge) / 0.24
+			} years past your life expectancy`;
+		}
 		return (this.lifeExpectancy - this.earthAge) / 0.24;
 	}
 
@@ -21,6 +31,11 @@ export class User {
 	}
 
 	venusYearsLeft() {
+		if (this.lifeExpectancy < this.earthAge) {
+			return `youve lived ${
+				Math.abs(this.lifeExpectancy - this.earthAge) / 0.62
+			} years past your life expectancy`;
+		}
 		return (this.lifeExpectancy - this.earthAge) / 0.62;
 	}
 
@@ -29,6 +44,11 @@ export class User {
 	}
 
 	marsYearsLeft() {
+		if (this.lifeExpectancy < this.earthAge) {
+			return `youve lived ${
+				Math.abs(this.lifeExpectancy - this.earthAge) / 1.88
+			} years past your life expectancy`;
+		}
 		return (this.lifeExpectancy - this.earthAge) / 1.88;
 	}
 
@@ -37,6 +57,11 @@ export class User {
 	}
 
 	jupiterYearsLeft() {
+		if (this.lifeExpectancy < this.earthAge) {
+			return `youve lived ${
+				Math.abs(this.lifeExpectancy - this.earthAge) / 11.86
+			} years past your life expectancy`;
+		}
 		return (this.lifeExpectancy - this.earthAge) / 11.86;
 	}
 }
