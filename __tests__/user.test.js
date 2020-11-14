@@ -67,6 +67,13 @@ describe('User', () => {
 		expect(user.marsYearsLeft()).toEqual((78.54 - 45) / 1.88);
 	});
 
+	test('should correctly output the Earth age of the User object', () => {
+		let user = new User(80, 75);
+		expect(user.marsYearsLeft()).toEqual(
+			`youve lived ${Math.abs(75 - 80) / 1.88} years past your life expectancy`
+		);
+	});
+
 	test('should correctly output the life expectancy left in Jupiter years of the User object', () => {
 		let user = new User(45, 78.54);
 		expect(user.jupiterYearsLeft()).toEqual((78.54 - 45) / 11.86);
