@@ -5,7 +5,6 @@
   },
   "extends": "eslint:recommended",
   "env": {
-    "jest": true,
     "es6": true,
     "browser": true,
     "jquery": true,
@@ -13,6 +12,6 @@
   },
   "rules": {
       "semi": 1,
-      "space": ["warn", 2]
+      "indent": ["warn", 2]
   }
 }
