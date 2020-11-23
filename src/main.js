@@ -17,7 +17,7 @@ $(document).ready(function () {
       .append(
         `Your solar age information is as follows: Your Earth age is ${
           user.earthAge
-        }, which means that you have  ${user.earthYearsLeft(
+        }, which means that you have ${user.earthYearsLeft(
           lifeExpectancy - earthAge
         )} years left to live. However, on Mercury your age would be ${user.mercuryAge()} and your years left would be ${user.mercuryYearsLeft(
           (lifeExpectancy - earthAge) / 0.24
