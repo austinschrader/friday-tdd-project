@@ -73,6 +73,7 @@ At this time, there are no known bugs. If you see spot a bug feel free to make a
 - Markdown
 - Emmet (Extension)
 - Prettier (Extension)
+- Jest Testing Framework
 
 ## License
 
