@@ -19,43 +19,43 @@ This project was created by Austin Schrader for the Friday project where we are 
 
 ### Describe: 
 User Class <br>
-### Test: "should correctly output the Earth age" <br>
+#### Test: "should correctly output the Earth age" <br>
 let user = new User(45); <br>
 Expect(user.earthAge).toEqual(45); 
 
-### Test: "should correctly output the Mercury age"<br>
+#### Test: "should correctly output the Mercury age"<br>
 let user = new User(45);<br>
 Expect(user.mercuryAge()).toEqual(45 / 0.24);<br>
 
-### Test: "should correctly output the Venus age"<br>
+#### Test: "should correctly output the Venus age"<br>
 let user = new User(45);<br>
 Expect(user.venusAge()).toEqual(45 / 0.62);<br>
 
-### Test: "should correctly output the Mars age"<br>
+#### Test: "should correctly output the Mars age"<br>
 let user = new User(45);<br>
 Expect(user.marsAge()).toEqual(45 / 1.88);<br>
 
-### Test: "should correctly output the Jupiter"<br>
+#### Test: "should correctly output the Jupiter"<br>
 let user = new User(45);<br>
 Expect(user.jupiterAge()).toEqual(45 / 11.86);<br>
 
-### Test: "should correctly output the life expectancy left in Earth years"<br>
+#### Test: "should correctly output the life expectancy left in Earth years"<br>
 let user = new User(45);<br>
 Expect(user.earthYearsLeft()).toEqual(78.54 - 45);<br>
 
-### Test: "should correctly output the life expectancy left in Mercury years"<br>
+#### Test: "should correctly output the life expectancy left in Mercury years"<br>
 let user = new User(45);<br>
 Expect(user.mercuryYearsLeft()).toEqual((78.54 - 45) / 0.24);<br>
 
-### Test: "should correctly output the life expectancy left in Venus years"<br>
+#### Test: "should correctly output the life expectancy left in Venus years"<br>
 let user = new User(45);<br>
 Expect(user.venusYearsLeft()).toEqual((78.54 - 45) / 0.62);<br>
 
-### Test: "should correctly output the life expectancy left in Mars years"<br>
+#### Test: "should correctly output the life expectancy left in Mars years"<br>
 let user = new User(45);<br>
 Expect(user.marsYearsLeft()).toEqual((78.54 - 45) / 1.88);<br>
 
-### Test: "should correctly output the life expectancy left in Jupiter years"<br>
+#### Test: "should correctly output the life expectancy left in Jupiter years"<br>
 let user = new User(45);<br>
 Expect(user.jupiterYearsLeft()).toEqual((78.54 - 45) / 11.86);<br>
 
