@@ -1,4 +1,4 @@
-## Friday TDD Project
+## Space Age Calculator with Jest Testing Framework
 
 Fun application that takes your age, and your life expectancy and tells you your expected age left converted to various solar bodies including Mars, Venus, Mercury & Jupiter.
 
@@ -6,7 +6,7 @@ By Austin Schrader
 
 ## Description
 
-This project was created by Austin Schrader for the Friday project where we are using Test Driven Development. It was created using CSS, HTML, JavaScript, Git, GitHub, and Markdown, VSCode, Emmet, and Prettier.
+This project was created by Austin Schrader for the Friday project where we are using Test Driven Development and the Jest testing framework. It was created using CSS, HTML, JavaScript, Git, GitHub, and Markdown, VSCode, Emmet, Prettier, and Jest.
 
 ## Setup
 
